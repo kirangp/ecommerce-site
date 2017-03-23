@@ -51,4 +51,6 @@ group :development do
   gem 'devise'
 
   gem 'irbtools', require: 'irbtools/binding'
+
+  gem 'cancancan'
 end
