@@ -53,4 +53,6 @@ group :development do
   gem 'irbtools', require: 'irbtools/binding'
 
   gem 'cancancan'
+
+  gem 'paperclip'
 end
