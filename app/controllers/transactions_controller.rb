@@ -8,7 +8,7 @@ class TransactionsController < ApplicationController
                 amount: book.price,
                 currency: 'usd',
                 card: token,
-                description: current_use.email)
+                description: current_user.email)
             @sale = book.sales.create!(
                 buyer_email: current_user.email)
             redirect_to pickup_url(guid: @sale.guid)
