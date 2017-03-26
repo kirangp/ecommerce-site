@@ -62,4 +62,6 @@ group :development do
 
   gem 'friendly_id'
 
+  gem 'stripe'
+
 end
