@@ -60,4 +60,6 @@ group :development do
 
   gem 'aws-sdk'
 
+  gem 'friendly_id'
+
 end
