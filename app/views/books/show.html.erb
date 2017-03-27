@@ -15,6 +15,9 @@
             $<%= @book.price.to_f / 100 %>
         </h4>
 
+        <% if current_user %>
+
+
         <%= form_tag buy_path(slug: @book.slug) do%>
         <script
             src="https://checkout.stripe.com/checkout.js"
@@ -28,6 +31,11 @@
             data-currency="usd">
           </script>
         <% end %>
+
+        <% else %>
+        <p>Please login first to Buy</p>
+        <% end %>
+
     </div>
 </div>
 

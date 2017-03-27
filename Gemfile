@@ -64,4 +64,6 @@ group :development do
 
   gem 'stripe'
 
+  gem 'aasm'
+
 end
