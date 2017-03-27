@@ -66,4 +66,6 @@ group :development do
 
   gem 'aasm'
 
+  gem 'pry-rails', :group => :development
+
 end
